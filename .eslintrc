@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "no-unused-vars": [
+      "warn"
+    ],
+    "no-case-declarations": [
+      "warn"
+    ],
+    "no-prototype-builtins": [
+      "warn"
+    ]
+  }
+}
