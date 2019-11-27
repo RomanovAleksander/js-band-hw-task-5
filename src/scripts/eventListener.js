@@ -1,5 +1,3 @@
-import Ship from "./models/Ship.js";
-import Truck from "./models/Truck.js";
 import Cost from "./models/Cost.js";
 import Data from "./data.js";
 import TransportFactory from "./models/TransportFactory.js";
