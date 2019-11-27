@@ -8,6 +8,6 @@ export default class Ship extends Transport{
   }
 
   showAverageSpeed() {
-    console.log(`Average speed = ${this.averageSpeed}nm.`);
+    return `Average speed = ${this.averageSpeed}nm.`;
   }
 }

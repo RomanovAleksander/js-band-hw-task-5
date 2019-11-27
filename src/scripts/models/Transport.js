@@ -10,10 +10,10 @@ export default class Transport{
   showCapacityInPounds() {
     const KG_IN_POUND = 2.2046;
     this.capacity = this.capacity * KG_IN_POUND;
-    console.log(`Capacity in pounds ${this.averageSpeed}nm.`);
+    return `Capacity in pounds ${this.capacity}nm.`;
   }
 
   showAverageSpeed() {
-    console.log(`Average is ${this.averageSpeed}`);
+    return `Average is ${this.averageSpeed}`;
   }
 }

@@ -8,6 +8,6 @@ export default class Truck extends Transport{
   }
 
   showAverageSpeed() {
-    console.log(`Average speed = ${this.averageSpeed}km.`);
+    return `Average speed = ${this.averageSpeed}km.`;
   }
 }
