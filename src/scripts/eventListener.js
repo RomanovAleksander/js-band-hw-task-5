@@ -3,9 +3,9 @@ import Data from "./data.js";
 import TransportFactory from "./models/TransportFactory.js";
 
 export default class EventListener extends Data {
-  constructor() {
+  constructor(forms) {
     super();
-    this.forms = document.querySelector('.forms');
+    this.forms = forms;
     this.init();
   }
 

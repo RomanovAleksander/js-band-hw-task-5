@@ -14,11 +14,11 @@ export default class Data extends LocalStorage{
   getItemsFromLocalStorage() {
     console.log(localStorage);
     if (localStorage[this.transportKey]) {
-      this.transport = this.storage.getItem(TRANSPORT_KEY);
+      this.transport = this.storage.getItem(TRANSPORT_KEY) || [];
       this.renderList(this.transport);
     }
     if (localStorage[this.costsKey]) {
-      this.costs = this.storage.getItem(COSTS_KEY);
+      this.costs = this.storage.getItem(COSTS_KEY) || [];
       this.renderList(this.costs);
     }
   }
