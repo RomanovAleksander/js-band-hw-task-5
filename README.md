@@ -1,4 +1,8 @@
 ## Homework task 5
+* In this homework I improved my [Delivery App](https://github.com/RomanovAleksander/js-band-hw-task-1) using:
+    * Travis CI
+    * Jest tests
+* [App on GitHub Pages](https://romanovaleksander.github.io/js-band-hw-task-5)    
 ## Using
  ```bash
 # Install dependencies
@@ -17,10 +21,10 @@ $ npm run eslint
 $ npm run commit
 
 # Run tests
-$ npm run test
+$ npm test
 
 # Deploy the project on gh-pages
-$ npm run test
+$ npm run deploy
  ```
 ## Structure
 ```
@@ -56,5 +60,3 @@ Configurations and rules
 .package.json
 Project settings
 ```  
-
-[App on GitHub Pages](https://romanovaleksander.github.io/js-band-hw-task-5)
