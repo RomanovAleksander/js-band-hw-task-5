@@ -2,6 +2,7 @@
 * In this homework I improved my [Delivery App](https://github.com/RomanovAleksander/js-band-hw-task-1) using:
     * Travis CI
     * Jest tests
+* [App on GitHub Pages](https://romanovaleksander.github.io/js-band-hw-task-5)    
 ## Using
  ```bash
 # Install dependencies
@@ -59,5 +60,3 @@ Configurations and rules
 .package.json
 Project settings
 ```  
-
-[App on GitHub Pages](https://romanovaleksander.github.io/js-band-hw-task-5)
