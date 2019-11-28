@@ -1,4 +1,5 @@
 import "./styles/style.css"
 import EventListener from "./scripts/eventListener.js";
 
-const listen = new EventListener();
+const forms = document.querySelector('.forms');
+const listen = new EventListener(forms);

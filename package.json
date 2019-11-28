@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "eslint": "eslint --ext .js ./src/",
-    "test": "jest ./src/",
+    "test": "jest --coverage --collectCoverage",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "author": "Oleksandr Romanov",
@@ -44,6 +44,5 @@
     "hooks": {
       "pre-commit": "npm run eslint && npm test"
     }
-  },
-  "config": {}
+  }
 }
